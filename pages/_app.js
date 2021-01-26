@@ -1,4 +1,4 @@
-import PageWrapper from 'components/PageWrapper/index'
+import PageWrapper from 'components/PageWrapper'
 import PageHeader from 'components/PageHeader'
 import PageFooter from 'components/PageFooter'
 
