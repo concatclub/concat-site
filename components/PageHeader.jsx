@@ -1,25 +1,20 @@
-import Link from "next/link";
+import Image from 'next/image'
+import SiteNavigation from 'components/SiteNavigation'
 
 const PageHeader = () => (
   <header>
-    Logo
-    <nav>
-      <Link href="/code-of-conduct">CoC</Link>
-      <Link href="/about">About</Link>
-    </nav>
+    <Image src="/logo-long.svg" width={250} height={100} alt="concat.club logo" />
+    
+    <SiteNavigation />
+
     <style jsx>{`
-      header, nav {
+      header {
         display: flex;
         flex-direction: row;
+        align-items: center;
+        margin-bottom: 5rem;
       }
-      nav {
-        flex: 1 0 auto;
-        justify-content: end;
-      }
-      nav > :global(a:not(:last-child)) {
-        margin-right: 1rem;
-      }
-      
+
     `}</style>
   </header>
 );
