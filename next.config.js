@@ -1,5 +1,8 @@
 const withPreact = require('next-plugin-preact')
-
-module.exports = withPreact({
-  /* regular next.js config options here */
+const withMDX = require('@next/mdx')({
+  extension: /\.mdx?$/,
 })
+
+module.exports = withPreact(withMDX({
+  pageExtensions: ['js', 'jsx', 'mdx'],
+}))
