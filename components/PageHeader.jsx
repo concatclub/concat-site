@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import SiteNavigation from 'components/SiteNavigation'
+import SiteNavigation from './SiteNavigation'
 
 const PageHeader = () => (
   <header>

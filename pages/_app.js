@@ -1,6 +1,6 @@
-import PageWrapper from 'components/PageWrapper'
-import PageHeader from 'components/PageHeader'
-import PageFooter from 'components/PageFooter'
+import PageWrapper from '../components/PageWrapper'
+import PageHeader from '../components/PageHeader'
+import PageFooter from '../components/PageFooter'
 
 function MyApp({ Component, pageProps }) {
   return <PageWrapper>
