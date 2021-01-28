@@ -8,7 +8,7 @@ const PageFooter = () => (
     <Link href="/land-acknowledgement">Land Acknowledgement</Link>
 
     <style jsx>{`
-      footer { margin-top: 4rem; }
+      footer { margin-top: 4rem; text-align: right; }
     `}</style>
   </footer>
 )
