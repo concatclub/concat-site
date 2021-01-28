@@ -5,7 +5,7 @@ const PageFooter = () => (
   <footer>
     <SiteNavigation />
     <br />
-    <Link href="/land-acknowledgement" />
+    <Link href="/land-acknowledgement">Land Acknowledgement</Link>
 
     <style jsx>{`
       footer { margin-top: 4rem; }
